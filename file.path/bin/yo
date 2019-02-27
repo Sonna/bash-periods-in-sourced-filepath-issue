@@ -1,0 +1,4 @@
+set -ex
+
+base_dir=$(cd $(dirname "$0")/.. && pwd)
+source "$base_dir/bin/hello_world.bash"
